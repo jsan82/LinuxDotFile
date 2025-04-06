@@ -6,10 +6,14 @@ DIR=`pwd`
 FDIR="$HOME/.local/share/fonts"
 
 
-yay -S picom nitrogen rofi dunst polybar alacritty thunar firefox flameshot alsa-lib alsa-utils pulseaudio pulseaudio-alsa pavucontrol xorg xorg-xinit xorg-server xorg-xrandr xorg-xsetroot xorg-xset
+yay -S picom nitrogen rofi dunst polybar ghostty viu toipc thunar firefox flameshot alsa-lib alsa-utils pulseaudio pulseaudio-alsa pavucontrol xorg xorg-xinit xorg-server xorg-xrandr xorg-xsetroot xorg-xset
 
 # Copying the config files from current repo to the .config dir
 cp -r "$(pwd)/.config" ~/
+cp -r "$(pwd)/wallpaper.jpg" ~/Pictures/
+
+# Setting wallpaper
+nitrogen Pictures/
 
 # Installing fonts
 [[ ! -d "$FDIR" ]]&& mkdir -p "$FDIR"

@@ -23,4 +23,5 @@ picom --config $HOME/.config/picom/picom.conf &
 nitrogen --restore &
 dunst &
 bash $HOME/.config/polybar/forest/launch.sh &
-setxkbmap pl
+setxkbmap pl &
+nitrogen restore &
