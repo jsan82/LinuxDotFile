@@ -25,3 +25,4 @@ dunst &
 bash $HOME/.config/polybar/forest/launch.sh &
 setxkbmap pl &
 nitrogen restore &
+wmname compiz &

@@ -6,7 +6,7 @@ DIR=`pwd`
 FDIR="$HOME/.local/share/fonts"
 
 
-yay -S picom nitrogen rofi dunst polybar ghostty viu toipe thunar firefox flameshot alsa-lib alsa-utils pulseaudio pulseaudio-alsa pavucontrol xorg xorg-xinit xorg-server xorg-xrandr xorg-xsetroot xorg-xset
+yay -S picom nitrogen rofi dunst polybar ghostty viu toipe thunar firefox flameshot alsa-lib alsa-utils pulseaudio pulseaudio-alsa pavucontrol xorg xorg-xinit xorg-server xorg-xrandr xorg-xsetroot xorg-xset wmname
 
 # Copying the config files from current repo to the .config dir
 cp -r "$(pwd)/.config" ~/
